@@ -1,0 +1,32 @@
+GET http://localhost:3050/subscribers
+
+
+###
+
+GET http://localhost:3050/subscribers/641623c4f0b6de119bc4f205
+###
+
+POST http://localhost:3050/subscribers/
+Content-Type: application/json
+
+{
+    "name": "butty",
+    "subscribedToChannel": "Web Dev Simplified"
+}
+
+
+###
+
+
+DELETE http://localhost:3050/subscribers/64185ac492808ae2e2c45521
+
+###
+
+PATCH  http://localhost:3050/subscribers/641623c4f0b6de119bc4f205
+Content-Type: application/json
+
+{
+    "name": "Aneeshhahka"
+}
+
+
